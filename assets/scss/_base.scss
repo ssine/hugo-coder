@@ -46,7 +46,26 @@ h6 {
   font-family: $heading-font-family;
   font-weight: 700;
   color: $alt-fg-color;
-  margin: 6.4rem 0 3.2rem 0;
+  margin: 4rem 0 2rem 0;
+}
+
+.list .section {
+  text-align: center;
+}
+
+.list .section:after {
+  content: "";
+  display: block;
+  width: 6em;
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  border-bottom: .175em solid #ff359a;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.post-list {
+  line-height: 2.5em;
 }
 
 h1 {
